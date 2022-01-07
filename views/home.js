@@ -1,0 +1,26 @@
+
+module.exports = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+</head>
+<body>
+    <input type="text" class="message">
+    <button onClick="sendMessage()">Send Message</button>
+    <h1></h1>
+    <script>
+        const socket = io('http://localhost:3001')
+
+        socket.on('connection')
+         
+        socket.on('message', (data) => {
+            document.querySelector('h1').innerHTML = data
+        })
+        const sendMessage = () => {
+            const messageInput = document.querySelector('.message')
+            const message = messageInput.value
+            socket.emit('message', message)
+        }
+    </script> 
+</body>
+</html>`
