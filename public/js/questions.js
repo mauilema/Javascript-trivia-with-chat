@@ -2,57 +2,57 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+    answer: "push()",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "last()",
+      "put()",
+      "push()",
+      "All of the above"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which built-in method reverses the order of the elements of an array?",
+    answer: "reverse()",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "changeOrder(order)",
+      "sort(order)",
+      "split()",
+      "reverse()"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Which of the following function of String object combines the text of two strings and returns a new string?",
+    answer: "concat()",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "add()",
+      "concat()",
+      "merge()",
+      "append()"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "A Function Associated With An object is Called:",
+    answer: "method",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "function",
+      "method",
+      "link",
+      "element"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "GetMonth() returns The Month as:",
+    answer: "Int",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "String",
+      "Char",
+      "Float",
+      "Int"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
@@ -60,13 +60,13 @@ let questions = [
 
     {
     numb: 6,
-    question: "Your Question is Here",
-    answer: "Correct answer of the question is here",
+    question: "Who created JavaScript",
+    answer: "Brendan Eich",
     options: [
-      "Option 1",
-      "option 2",
-      "option 3",
-      "option 4"
+      "Guido van Rossum",
+      "Bjarne Stroustrup",
+      "Brendan Eich",
+      "None of the above"
     ]
   },
 ];
