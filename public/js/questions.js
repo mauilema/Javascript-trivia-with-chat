@@ -27,7 +27,7 @@ let questions = [
     question: "Which of the following function of String object combines the text of two strings and returns a new string?",
     answer: "concat()",
     options: [
-      "add()",
+      "sum()",
       "concat()",
       "merge()",
       "append()"
